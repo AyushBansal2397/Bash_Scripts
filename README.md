@@ -2,12 +2,12 @@
 Some user defined bash command I personlly use a lot.
 
 # Files
-CodeChef_fetch.py - <br/>
-CodeChef_login.py - <br/>
-CodeForces_fetch.py - <br/>
-CodeForces_login.py - <br/>
-Submissions.py - <br/>
-facebook_login.py - 
+CodeChef_fetch.py - This will make directory named CodeChef and make snipets for each question in contest.<br/>
+CodeChef_login.py - login to your CodeChef account.<br/>
+CodeForces_fetch.py - This will make directory named CodeForces and make snipets for each question in contest.<br/>
+CodeForces_login.py - login to your CodeForces account.<br/>
+Submissions.py - this will fetch your submissions.<br/>
+facebook_login.py - login to your Facebook account.
 
 # Required python modules :
 os<br/>
