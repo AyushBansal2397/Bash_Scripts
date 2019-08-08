@@ -1,6 +1,6 @@
 #!/bin/bash
 # Just change this path variable, and add FULL path from root
-path='/media/ayush-bansal/942A3BC42A3BA262/Project/Shell_Scripts/'
+path='/media/ayush-bansal/942A3BC42A3BA262/Project/Bash_Scripts/'
 
 function diskSort(){
 	current=$(pwd)
@@ -10,7 +10,7 @@ function diskSort(){
 	rm *.$1
 }
 
-function test(){
+function Test(){
 	$path./test.sh
 }
 
@@ -20,12 +20,14 @@ function py(){
 
 function c(){
 	gcc -o a $1
+	echo "Complied Successfully\n"
 	./a
 	rm a
 }
 
 function cpp(){
 	g++ -o a $1 
+	echo "Complied Successfully\n"
 	./a
 	rm a
 }
