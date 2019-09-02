@@ -20,14 +20,14 @@ function py(){
 
 function c(){
 	gcc -o a $1
-	echo "Complied Successfully\n"
+	echo "Complied Successfully"
 	./a
 	rm a
 }
 
 function cpp(){
 	g++ -o a $1 
-	echo "Complied Successfully\n"
+	echo "Complied Successfully"
 	./a
 	rm a
 }
